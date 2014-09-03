@@ -19,8 +19,13 @@ tp-tadp-2014-prototypes
 ```bash
     rvm use 2.1.2
 ```
-####Install Rspec gem.
+####Install Bundler for load config
 
 ```bash 
-    gem install rspec
+    gem install bundle
+```
+####Resolve dependencies project
+
+```bash 
+    bundle install
 ```
