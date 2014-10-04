@@ -6,11 +6,7 @@ class PrototypedObject
   end
 
   def set_method(selector, block)
-
-    self.define_singleton_method(selector) do |param|
-      block.call(param)
-    end
-
+    self.define_singleton_method(selector, block)
   end
 
 end
